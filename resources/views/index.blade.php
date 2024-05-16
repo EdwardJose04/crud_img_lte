@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-    <h1>Dashboard</h1>
+    
 @stop
 
 @section('content')
@@ -33,9 +33,6 @@
 
 <div class="container mt-5">
     <div class="row justify-content-center mt-3">
-        <div class="col-md-8">
-            <a href="{{ route('create') }}" class="btn btn-success">Crear Perfil</a>
-        </div>
     </div>
     <div class="row justify-content-center">
         <div class="col-md-8">

@@ -315,15 +315,15 @@ return [
             'url' => 'admin/blog',
             'can' => 'manage-blog',
         ],
-        ['header' => 'account_settings'],
+        ['header' => 'PERFILES'],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
+            'text' => 'Perfiles',
+            'route' => 'index',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
-            'text' => 'profile',
-            'url' => 'admin/settings',
+            'text' => 'Crear Perfil',
+            'route' => 'create',
             'icon' => 'fas fa-fw fa-user',
         ]
     ],
